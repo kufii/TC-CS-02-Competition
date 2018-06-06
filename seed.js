@@ -1,3 +1,4 @@
+// Script to reset the database to the initial state
 'use strict';
 
 require('dotenv').config();
@@ -8,6 +9,7 @@ const Center = require('./lib/models/center.js');
 
 mongoose.connect(process.env.DB_CONN);
 
+// Clears the data in the DB and inserts based off the data in centers.json
 const seed = async function() {
 	const clearData = function() {
 		console.log('Clearing Data...');
