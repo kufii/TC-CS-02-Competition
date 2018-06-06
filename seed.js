@@ -2,6 +2,7 @@
 'use strict';
 
 require('dotenv').config();
+const promisify = require('util').promisify;
 const fs = require('fs');
 const mongoose = require('mongoose');
 const CenterType = require('./lib/models/center-type.js');
@@ -45,20 +46,12 @@ const seed = async function() {
 
 	const resetSequence = function() {
 		console.log('Resetting Sequence...');
-		return new Promise((resolve, reject) => {
-			Appointment.counterReset('apptcounter', err => {
-				if (err) {
-					reject(err);
-				} else {
-					resolve();
-				}
-			});
-		});
+		return promisify(Appointment.counterReset)('apptcounter');
 	};
 
 	await clearData();
 
-	const data = JSON.parse(fs.readFileSync('./data/centers.json'));
+	const data = JSON.parse(await promisify(fs.readFile)('./data/centers.json'));
 	await insertCenterTypes(data.CenterTypes);
 	await insertCenters(data.Centers);
 	await resetSequence();
