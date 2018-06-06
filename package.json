@@ -16,6 +16,10 @@
   "author": "Adrien Pyke",
   "license": "ISC",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kufii/TC-CS-02-Competition.git"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
