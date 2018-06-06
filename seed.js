@@ -6,6 +6,7 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const CenterType = require('./lib/models/center-type.js');
 const Center = require('./lib/models/center.js');
+const Appointment = require('./lib/models/appointment.js');
 
 mongoose.connect(process.env.DB_CONN);
 
@@ -14,7 +15,8 @@ const seed = async function() {
 	const clearData = function() {
 		console.log('Clearing Data...');
 		return Promise.all([
-			Center.remove(),
+			Appointment.remove({}),
+			Center.remove({}),
 			CenterType.remove({})
 		]);
 	};

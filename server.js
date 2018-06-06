@@ -17,10 +17,38 @@ router.get('/centers', (req, res) => {
 
 // Get center by id
 router.get('/centers/:id', (req, res) => {
-	api.getCenter(req.params.id)
-		.then(data => res.json(data))
-		.catch(() => res.status(404).send('Not found'));
+	api.getCenter(req.params.id).then(data => {
+		if (data) {
+			res.json(data);
+		} else {
+			res.status(404).send('Not found');
+		}
+	});
 });
+
+router.route('/appointments')
+	// Get all appointments
+	.get((req, res) => {
+		api.getAllAppointments().then(data => res.json(data));
+	})
+	// Add new appointment
+	.post((req, res) => {
+
+	});
+
+router.route('/appointments/:id')
+	// Get appointment by id
+	.get((req, res) => {
+
+	})
+	// update appointment
+	.put((req, res) => {
+
+	})
+	// delete appointment
+	.delete((req, res) => {
+
+	});
 
 // Create Server
 const app = express();
