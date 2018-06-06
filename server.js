@@ -33,13 +33,19 @@ router.route('/appointments')
 	})
 	// Add new appointment
 	.post((req, res) => {
-
+		api.insertAppointment(req.body).then(data => res.json(data));
 	});
 
 router.route('/appointments/:id')
 	// Get appointment by id
 	.get((req, res) => {
-
+		api.getAppointment(req.params.id).then(data => {
+			if (data) {
+				res.json(data);
+			} else {
+				res.status(404).send('Not found');
+			}
+		});
 	})
 	// update appointment
 	.put((req, res) => {

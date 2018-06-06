@@ -43,11 +43,25 @@ const seed = async function() {
 		}));
 	};
 
+	const resetSequence = function() {
+		console.log('Resetting Sequence...');
+		return new Promise((resolve, reject) => {
+			Appointment.counterReset('apptcounter', err => {
+				if (err) {
+					reject(err);
+				} else {
+					resolve();
+				}
+			});
+		});
+	};
+
 	await clearData();
 
 	const data = JSON.parse(fs.readFileSync('./data/centers.json'));
 	await insertCenterTypes(data.CenterTypes);
 	await insertCenters(data.Centers);
+	await resetSequence();
 };
 
 seed().then(() => mongoose.connection.close());
