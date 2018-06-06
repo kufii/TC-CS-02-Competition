@@ -17,7 +17,9 @@ router.get('/centers', (req, res) => {
 
 // Get center by id
 router.get('/centers/:id', (req, res) => {
-	api.getCenter(req.params.id).then(data => res.json(data));
+	api.getCenter(req.params.id)
+		.then(data => res.json(data))
+		.catch(() => res.status(404).send('Not found'));
 });
 
 // Create Server
