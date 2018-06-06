@@ -11,9 +11,7 @@ const router = express.Router();
 // Public Routes
 
 // Get all centers
-router.get('/centers', (req, res) => {
-	api.getAllCenters().then(data => res.json(data));
-});
+router.get('/centers', async(req, res) => res.json(await api.getAllCenters()));
 
 // Get center by id
 router.get('/centers/:id', (req, res) => {
