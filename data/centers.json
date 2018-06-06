@@ -1,0 +1,554 @@
+{
+   "Centers": [
+      {
+         "Id": "1",
+         "Name": "Transport Canada",
+         "StreetAddress": "Flight Crew Examinations\n        330 Sparks Street\n        Place de Ville, Tower C, 6th Floor\n        Ottawa, ON\n        K1A 0N8\n        Telephone: 613-990-6077",
+         "CenterTypeId": "1"
+      },
+    {
+      "Id": "2",
+      "Name": "Atlantic Regional Office",
+      "StreetAddress": "Heritage Court\n        95 Foundry Street\n        Moncton, NB\n        E1C 8K6\n        Telephone: 506-851-7131",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "3",
+      "Name": "St. John's Transport Canada Centre",
+      "StreetAddress": "John Cabot Building\n        10 Barter's Hill\n        P.O. Box 1300\n        St. John's, NL\n        A1C 6H8\n        Telephone: 709-772-3307",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "4",
+      "Name": "Dartmouth Transport Canada Centre",
+      "StreetAddress": "Office, Queen Square\n        Darthmouth, NS\n        B2Y 2N6\n        Telephone: 1-800-305-2059",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "5",
+      "Name": "Ontario Regional Office",
+      "StreetAddress": "4900 Yonge Street\n        4th Floor\n        Toronto, ON\n        M2N 6A5\n        Telephone: 416-952-0230",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "6",
+      "Name": "Hamilton Transport Canada Centre",
+      "StreetAddress": "Hamilton Airport\n        9300 Airport Road - Unit 450\n        Mount Hope, ON\n        L0R 1W0\n        Telephone: 905-679-3477",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "7",
+      "Name": "Sarnia Transport Canada Centre",
+      "StreetAddress": "100 Front Street South\n        Sarnia, ON\n        N7T 2M4\n        Telephone: 519-464-5111",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "8",
+      "Name": "Ottawa Transport Canada Centre",
+      "StreetAddress": "39 Camelot Drive, Suite 400\n        Nepean, ON\n        K2G 5W6\n        Telephone: 613-952-1637",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "9",
+      "Name": "Sudbury Transport Canada Centre",
+      "StreetAddress": "3101 Skyline Drive\n        Sudbury Airport\n        Garson, ON\n        P3L 1V4\n        Telephone: 705-693-5804",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "10",
+      "Name": "Thunder Bay Transport Canada Centre",
+      "StreetAddress": "Airport Terminal Building\n        2nd Floor\n        210 - 100 Princess Street\n        Thunder Bay, ON\n        P7E 6S2\n        Telephone: 807-474-2570",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "11",
+      "Name": "Pacific Regional Office",
+      "StreetAddress": "800 Burrard Street, Suite 810\n        Vancouver, BC\n        V6Z 2J8\n        Telephone: 604-666-5571",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "12",
+      "Name": "Abbotsford Transport Canada Centre",
+      "StreetAddress": "103 - 1785 Clearbrook Road\n        Abbotsford, BC\n        V2T 5X5\n        Telephone: 604-504-4650",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "13",
+      "Name": "Kelowna Transport Canada Centre",
+      "StreetAddress": "#4 - 5583 Airport Way\n        Kelowna, BC\n        V1V 1S1\n        Telephone: 250-491-3700",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "14",
+      "Name": "Richmond Transport Canada Centre",
+      "StreetAddress": "400 - 3600 Lysander Lane\n        Richmond, BC\n        V7B 1C3\n        Telephone: 604-666-8777",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "15",
+      "Name": "Prince George Transport Canada Centre",
+      "StreetAddress": "#350 - 177 Victoria Street\n        Prince George, BC\n        V2L 5R8\n        Telephone: 250-561-5294",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "16",
+      "Name": "Victoria Transport Canada Centre",
+      "StreetAddress": "103 - 1962 Canso Road\n        North Saanich, BC\n        V8L 5V5\n        Telephone: 250-363-6823",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "17",
+      "Name": "Prairie and Northern Regional Office",
+      "StreetAddress": "Canada Place\n        1100 - 9700 Jasper Avenue\n        Edmonton, AL\n        T5J 4E6\n        Telephone: 1-888-463-0521",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "18",
+      "Name": "Whitehorse Transport Canada Centre",
+      "StreetAddress": "Room 105-300 Main Street\n        Whitehorse, YT\n        Y1A 2B5\n        Telephone: 1-888-463-0521",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "19",
+      "Name": "Saskatoon Transport Canada Centre",
+      "StreetAddress": "4 - 2625 Airport Dr\n        Saskatoon, SK\n        S7L 7L1\n        Telephone: 1-888-463-0521",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "20",
+      "Name": "Yellowknife Transport Canada Centre",
+      "StreetAddress": "4915 - 48 Street\n        3rd Floor, YK Centre East\n        P.O. Box 1439\n        Yellowknife, NT\n        X1A 2P1\n        Telephone: 1-888-463-0521",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "21",
+      "Name": "Winnipeg Transport Canada Centre",
+      "StreetAddress": "344 Edmonton Street - 2nd Floor\n        P.O. Box 8550\n        Winnipeg, MB\n        R3C 0P6\n        Telephone: 1-888-463-0521",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "22",
+      "Name": "Calgary Transport Canada Centre",
+      "StreetAddress": "800-1601 Airport Road, N.E.\n        Calgary, Alberta\n        T2E 8W3\n        Telephone: 1-888-463-0521",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "23",
+      "Name": "Québec Regional Office",
+      "StreetAddress": "700, rue Leigh Capréol\n        2nd Floor, Room 2001\n        Dorval, QC\n        Telephone: 514-633-3863\n        Toll Free Number: 1-800-305-2059",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "24",
+      "Name": "Québec Transport Canada Centre",
+      "StreetAddress": "401-1550, av. D'Estimauville\n        2800, avenue St-Jean Baptiste, Room 250\n        Québec, QC\n        G2E 6J5\n        Telephone: 418-877-1765\n        Toll Free Number: 1-800-305-2059",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "25",
+      "Name": "Alma Transport Canada Centre",
+      "StreetAddress": "Aviation civile\n        100, rue St-Joseph, Suite 6\n        Alma, QC\n        G8B 7A6\n        Telephone: 1-800-305-2059",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "26",
+      "Name": "Sept-Iles Transport Canada Centre",
+      "StreetAddress": "Marine Security\n        701, boulevard Laure\n        Suite 205, 2nd Floor\n        P.O. Box 596\n        Sept-Iles, QC\n        G4R 4K7\n        Local number: 418-968-4991 / Toll free number: 1-877-303-3435",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "27",
+      "Name": "Longueuil Transport Canada Centre",
+      "StreetAddress": "1111, Saint-Charles Ouest\n        Suite 356, Tour Est\n        Longueuil, QC\n        J4K 5G4\n        Toll free: 1-800-305-2059",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "28",
+      "Name": "Rimouski Transport Canada Centre",
+      "StreetAddress": "Marine Security\n        180, rue de la Cathédrale\n        Rimouski, QC\n        G5L 5H9\n        Local: 418-722-3040 / Toll free: 1-800-427-4417",
+      "CenterTypeId": "1"
+    },
+    {
+      "Id": "29",
+      "Name": "Wendi Jane Lunney",
+      "StreetAddress": "Canlink Aviation Inc.\n        (Moncton Flight College)\n        2570 Route 102 Hwy, Unit 7\n        Lincoln, NB\n        E3B 9G1\n        Telephone: 506-357-3787",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "30",
+      "Name": "Tracy Lynn Gunter / Carey Taylor",
+      "StreetAddress": "Canlink Aviation Inc.\n        (Moncton Flight College)\n        1719 Champlain Street\n        Dieppe, NB\n        E1A 7P5\n        Telephone: 506-857-3080",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "31",
+      "Name": "Sadie Marie",
+      "StreetAddress": "Exploits Valley Air Services Ltd.\n        PO Box 355\n        Gander, NL\n        A1V 1W7\n        Telephone: 709-256-7484",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "32",
+      "Name": "William Mark Blake",
+      "StreetAddress": "Lab West Ultralight\n        851 Tamarack Drive\n        Labrador City, NL\n        A2V 2M4\n        Telephone: 709-944-4080",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "33",
+      "Name": "Pierre Charles Ouellette",
+      "StreetAddress": "Grand Falls Aviation Services Ltd.\n        3 Michaud Road\n        Grand Falls, NB\n        E3Z 1L5\n        Telephone: 506-473-2566",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "34",
+      "Name": "Stuart Lemoine Fairchild / Paul Gamble",
+      "StreetAddress": "Truro Flying Club\n        P.O. Box 242\n        Debert, NS\n        B0M 1G0\n        Telephone: 902-662-2228",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "35",
+      "Name": "Ian Malcolm Fyfe",
+      "StreetAddress": "St. Thomas Flight Centre Ltd\n        44989 Talbot Line, R.R. #3\n        St. Thomas, ON\n        N5P 3S7\n        Telephone: 519-637-8359",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "36",
+      "Name": "Kathryn Mary Small / David Gordon Small",
+      "StreetAddress": "Cornwall Aviation (1979) Ltd.\n        19403 Airport Rd.\n        R.R. #1\n        Summerstown, ON\n        K0C 2E0\n        Telephone: 613-931-3311",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "37",
+      "Name": "Brenda Reid / Marie-Eve Richard",
+      "StreetAddress": "Rockcliff Flying Club (1961)\n        Ottawa Rockliffe Airport\n        1495 Rockcliffe Parkway\n        Ottawa, ON\n        K1L 4Y5\n        Telephone: 613-746-4425",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "38",
+      "Name": "Shawn Ronald Broughton",
+      "StreetAddress": "Brantford Flying Club\n        Box 903\n        Brantford, ON\n        N3T 5S1\n        Telephone: 519-753-2521",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "39",
+      "Name": "Daniel Richard Vachon",
+      "StreetAddress": "Owen Sound Flight Services Inc.\n        203807 Highway #26, R.R. #8\n        Owen Sound, ON\n        N4K 5W4\n        Telephone: 519-372-1259",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "40",
+      "Name": "David Marks / Jose Goncalves",
+      "StreetAddress": "Midland Flight Centre Ltd.\n        P.O. Box 307\n        Collingwood, ON\n        L9Y 3Z4\n        Telephone: 705-446-1139",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "41",
+      "Name": "Robert Lou Carney / Judy Piccioni / Valecia Gulcharan",
+      "StreetAddress": "Brampton Flying Club\n        13691 McLaughlin Road\n        P.O. Box 27 Stn. Cheltenham\n        Caledon, ON\n        L7C 3L7\n        Telephone: 416-798-7928",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "42",
+      "Name": "Cindy Masse / Denis Hamelin",
+      "StreetAddress": "Windsor Flying Club Inc.\n        Unit 105\n        2600 Airport Road\n        Windsor, ON\n        N8V 1A1\n        Telephone: 519-969-1320",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "43",
+      "Name": "Richard McIntyre / Mathew Scheben",
+      "StreetAddress": "Waterloo-Wellington Flight Centre\n        4881 Fountain Street North, Unit #3\n        Bresleau, ON\n        N0B 1M0\n        Telephone: 519-648-2213",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "44",
+      "Name": "John Stuart Brake",
+      "StreetAddress": "York Soaring Association\n        7296 5th Line R.R. #1\n        Belwood, ON\n        N0B 1J0\n        Telephone: 519-848-3621",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "45",
+      "Name": "Michael Kerr Hill",
+      "StreetAddress": "Kingston Flying Club\n        Norman Rogers Airport\n        Kingston, ON\n        K7M 9A1\n        Telephone: 613-389-0954",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "46",
+      "Name": "Sabine Lohrbach",
+      "StreetAddress": "Fly Canadian\n        2187 Hwy. 35 North\n        Lindsay, ON\n        K9V 4R1\n        Telephone: 705-879-4206",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "47",
+      "Name": "Lawrence Edward Lee",
+      "StreetAddress": "Genesis Flight Centre Inc.\n        P.O. Box 312\n        Collingwood, ON\n        L9Y 3Z7\n        Telephone: 877-359-3245",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "48",
+      "Name": "Colette Cecile Morin",
+      "StreetAddress": "C. Morin Aviation (BC) Inc.\n        Glacier Air\n        P.O. Box 2014\n        Squamish Airport, BC\n        V8B 0B4\n        Telephone: 604-898-9016",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "49",
+      "Name": "Patricia Anne Kennedy",
+      "StreetAddress": "Pacific Flying Club\n        #4 â€“ 4335 Skeena St.\n        Delta, BC\n        V4K 0A6\n        Telephone: 604-946-0011",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "50",
+      "Name": "Gerry Mants / Marcel Poland",
+      "StreetAddress": "Victoria Flying Club\n        #101 - 1852 Canso Road\n        North Saanich, BC\n        V8L 5V5\n        Telephone: 250-656-4321",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "51",
+      "Name": "Randell Kuan / Diana Kuan",
+      "StreetAddress": "International Flight Centre Inc.\n        Unit #1 â€“ 7630 Montreal Street\n        Delta, BC\n        V4K 0A7\n        Telephone: 604-940-6383",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "52",
+      "Name": "DavId Lloyd Parry / Rita Maria Alida Methorst",
+      "StreetAddress": "Langley Flying School Inc.\n        Unit 219 - 5333 - 216th Street\n        Langley, BC\n        V3A 4R1\n        Telephone: 604-532-6461",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "53",
+      "Name": "Shannon Helena Meissner",
+      "StreetAddress": "Pacific Professional Flight Centre Ltd.\n        Unit 6 - 4340 King Street\n        Delta, BC\n        V4K 0A5\n        Telephone: 604-952-4635",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "54",
+      "Name": "Ronald Bradley Reynolds",
+      "StreetAddress": "Skyquest Aviation Ltd.\n        Hangar #1 â€“ 5333 â€“ 216 Street\n        Langley, BC\n        V2Y 2N3\n        Telephone: 604-534-6855",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "55",
+      "Name": "Bobbi Stout",
+      "StreetAddress": "Coastal Pacific Aviation Ltd.\n        30575 Approach Drive\n        Abbotsford, BC\n        V2T 6H5\n        Telephone: 604-855-1112",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "56",
+      "Name": "Marc Anthony Vanderaegen",
+      "StreetAddress": "Sourthern Interior Flight center (1993) Ltd.\n        6191 Airport Way\n        Kelowna, BC\n        V1V 2S2\n        Telephone: 250-878-5800",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "57",
+      "Name": "Judi Louise Chambers",
+      "StreetAddress": "Lawrence Aviation Ltd.\n        P.O. Box 4418\n        Williams Lake, BC\n        V2G 2V4\n        Telephone: 250-392-3195",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "58",
+      "Name": "Ida Leung",
+      "StreetAddress": "Sea Land Air Management Ltd.\n        Aberdeen Centre\n        Unit 2010 - 4151 Hazelbridge Way\n        Richmond, BC\n        V6X 4J7\n        Telephone: 604-295-8176 Ext. 1108",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "59",
+      "Name": "Tyler John Gertzen",
+      "StreetAddress": "Tylair Aviation Ltd.\n        2845 Aviation Way\n        Kamloops, BC\n        V2B 7Y2\n        Telephone: 250-554-3333",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "60",
+      "Name": "Peter Schlieck",
+      "StreetAddress": "Canadian Flight Centre Inc.\n        101 â€“ 7500 Ottawa St.\n        Delta, BC\n        V4K 0B4\n        Telephone: 604-946-7744",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "61",
+      "Name": "Taylor Williams / Sophie Peschard",
+      "StreetAddress": "Pacific Sky Aviation Inc.\n        1533 Kitty Hawk Rd.\n        North Saanich, BC\n        V8L 5V6\n        Telephone : 250-656-4312",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "62",
+      "Name": "Véronique Ouellet",
+      "StreetAddress": "A.L.M. Par Avion Inc.\n        3415, Chemin de l'aéroport, porte 3\n        Mascouche (Québec)\n        J7K 3C1\n        Telephone: 450-474-0975",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "63",
+      "Name": "Thierry Rene Pierre Dugrippe",
+      "StreetAddress": "Air Richelieu\n        5800 Route de l'aéroport\n        St-Hubert (Québec)\n        J3Y 8Y9\n        Telephone: 452-445-4444",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "64",
+      "Name": "Laurette Grenier",
+      "StreetAddress": "Grondair\n        2075 Route 112\n        St-Frédéric de Beauce (Québec)\n        G0N 1P0\n        Telephone: 418-426-2313",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "65",
+      "Name": "Candace Morrow",
+      "StreetAddress": "Lachute Aviation\n        480 Boulevard de l'aéroparc\n        Lachute (Québec)\n        J8H 3R8\n        Telephone: 450-562-1330",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "66",
+      "Name": "Ginette Héroux",
+      "StreetAddress": "Nadeau Air Service Inc.\n        3300, Aéroport de Trois-RiviÃ¨res\n        Trois-Rivières (Québec)\n        G9A 5E1\n        Telephone : 819-377-4387",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "67",
+      "Name": "Pierre Etienne Geneau De LamarliÃ¨re",
+      "StreetAddress": "Aéro Loisirs Inc.\n        144 Chemin Roger Hébert\n        La Macaza Québec)\n        J0T 1R0\n        Telephone : 819-275-1597",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "68",
+      "Name": "Bassima Melki",
+      "StreetAddress": "École de Pilotage Saint-Hubert Inc.\n        5680 Chemin de l'Aéroport\n        St-Hubert (Québec)\n        J3Y 8Y9\n        Telephone : 450-443-4555",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "69",
+      "Name": "Tina Bertrand",
+      "StreetAddress": "École de Pilotage de L'Abitibi-Témiscamingue Inc.\n        42 7E Rue (hagar Q-60) Suite 2\n        Val D'Or (Québec)\n        J9P 0G6\n        Telephone: 819-354-2255",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "70",
+      "Name": "Sherry Diane Cooper / Steward John Vanmale",
+      "StreetAddress": "Sky Wings Aviation Academy Ltd.\n        P.O. Box 190\n        Penhold, AB\n        T0M 1R0\n        Telephone: 403-886-5191",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "71",
+      "Name": "Thomas Gibson Ray / David Neil Atkinson",
+      "StreetAddress": "Regina Flying Club (1944)\n        2610 Airport Road\n        Regina, SK\n        S4W 1A3\n        Telephone: 306-525-6194",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "72",
+      "Name": "James Ernest Smith",
+      "StreetAddress": "Centennial Flight Centre Inc.\n        Hanger 17, Villeneuve Airport\n        26-27018, SH633\n        Sturgeon Country, AB\n        T8T 0E3\n        Telephone: 780-451-7676",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "73",
+      "Name": "Donald Austin George Ingham / Brenda Ann Ingham",
+      "StreetAddress": "Leading Edge Aviation Ltd.\n        P.O. Box 1477\n        Yorkton, SK\n        S3N 3G3\n        Telephone: 306-783-0321",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "74",
+      "Name": "Greg Penner / Adam Penner",
+      "StreetAddress": "Harv's Air Service Ltd.\n        Box 1056\n        Steinback, MB\n        R5G 1M8\n        Telephone: 204-326-2434",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "75",
+      "Name": "Jordan Kroeker",
+      "StreetAddress": "Hav's Air Services Ltd.\n        St. Andrews Airport\n        601 Unit Road, Unit 100 St. Andrews, MB\n        R1A 3P6\n        Telephone: 204-339-6186",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "76",
+      "Name": "Wade Michael Komarnisky",
+      "StreetAddress": "McMurray Aviation\n        Site 1 Box 5 RR1\n        Fort McMurray, AB\n        T9H 5B4\n        Telephone: 780-791-2182",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "77",
+      "Name": "Marcus Seitter",
+      "StreetAddress": "Brandon Flying Club\n        Site 520, P.O. Box 18, RR#5\n        Brandon, MB\n        R7A 5Y5\n        Telephone: 204-728-7691",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "78",
+      "Name": "Michael Mario Mohr",
+      "StreetAddress": "Adventure Aviation Inc.\n        7117 102 Street\n        Grande Prairie, AB\n        T8W 2R8\n        Telephone: 780-539-6968",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "79",
+      "Name": "Dale Edward Tiedeman / Cathryn Rose Lawrence",
+      "StreetAddress": "Mitchinson Flying Service Limited\n        P.O. Box 1521\n        Saskatoon, SK\n        S7K 3R3\n        Telephone: 306-244-6714",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "80",
+      "Name": "Jacqui Shaw",
+      "StreetAddress": "The Prairie Bible Institute\n        Box 4000\n        Three Hills, AB\n        T0M 2N0\n        Telephone: 403-443-2349",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "81",
+      "Name": "Sonette Tredoux",
+      "StreetAddress": "Calgary Flying Club\n        155A MacLaurin Drive\n        Calgary, AB\n        T3Z 3S4\n        Telephone: 403-288-8831",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "82",
+      "Name": "Sheena Kristy Bennett / Christopher John Ueland / Chandler John Cook",
+      "StreetAddress": "Excel Flight Training Incorporated\n        Suite 201, 421 Stubb Ross Road\n        Lethbridge, AB\n        T1K 7N3\n        Telephone: 403-329-4887",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "83",
+      "Name": "Orville Hewitt / Benjamin Lee Match",
+      "StreetAddress": "Cooking Lake Aviation Academy Inc.\n        69, 51401 Range Rd 221\n        Sherwood Park, AB\n        T8E 1H1\n        Telephone: 780-922-2802",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "84",
+      "Name": "Ronald Vanden Dungen / Steven Travis Dammann",
+      "StreetAddress": "Wetaskiwin Air Services Ltd.\n        Box 6444\n        Wetaskiwin, AB\n        T9A 2G2\n        Telephone: 780-352-5643",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "85",
+      "Name": "Jayme Joel Hepfner / Eden Elizabeth Vogan",
+      "StreetAddress": "Springbank Air Training College Ltd.\n        132 MacLaurin Drive\n        Calgary, AB\n        T3Z 3S4\n        Telephone: 403-288-7700",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "86",
+      "Name": "Robert John Smits / Erin Hyderman",
+      "StreetAddress": "Namao Flying Club\n        25, 27018 S.H. 633\n        Sturgeon Country, AB\n        T8T 0E3\n        Telephone: 780-419-6777",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "87",
+      "Name": "Steven James Watt",
+      "StreetAddress": "Border City Aviation Ltd.\n        Box 963\n        Lloydminster, SK\n        T9V 3B3\n        Telephone: 780-875-5834",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "88",
+      "Name": "Benjamin Gerzen",
+      "StreetAddress": "Mountain City Aviation Inc.\n        50 Conner Hill Drive\n        Morden, MB\n        R6M 1J1\n        Telephone: 204-822-9621",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "89",
+      "Name": "Terri Ann Super",
+      "StreetAddress": "Super T Management LTD.\n        #11, 49 Viscount Ave SW\n        Medicine Hat, AB\n        T1A 5G4\n        Telephone: 403-548-6636",
+      "CenterTypeId": "2"
+    },
+    {
+      "Id": "90",
+      "Name": "Daniel Edgar Reeves",
+      "StreetAddress": "Winnipeg Aviation (2003) LTD.\n        700 South Gate Road\n        St. Andrews, MB\n        R1A 3P8\n        Telephone: 204-338-7923",
+      "CenterTypeId": "2"
+    }
+   ],
+   "CenterTypes": [
+      {
+         "Id": "1",
+         "Value": "Transport Canada owned and operated / Détenu et exploité par Transport Canada"
+      },
+      {
+         "Id": "2",
+         "Value": "Authorized Examination Invigilators / Surveillant d'examen autorisés"
+      }
+   ]
+}
