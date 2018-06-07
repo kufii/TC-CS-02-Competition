@@ -60,8 +60,12 @@ router.route('/appointments/:id')
 		}
 	})
 	// delete appointment
-	.delete((req, res) => {
-
+	.delete(async(req, res) => {
+		if ((await api.deleteAppointment(req.params.id)).n > 0) {
+			res.status(204).send('Successful delete');
+		} else {
+			res.status(404).send('Not found');
+		}
 	});
 
 // Create Server
