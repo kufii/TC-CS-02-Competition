@@ -10,59 +10,35 @@ const router = express.Router();
 
 // Public Routes
 
+const handleResults = function(res, data) {
+	res.status({
+		[api.Messages.SUCCESS]: 200,
+		[api.Messages.SUCCESSFUL_INSERT]: 201,
+		[api.Messages.SUCCESSFUL_CHANGE]: 204,
+		[api.Messages.BAD_ID]: 404,
+		[api.Messages.INVALID]: 400
+	}[data.status]).json(data.json);
+};
+
 // Get all centers
-router.get('/centers', async(req, res) => res.json(await api.getAllCenters()));
+router.get('/centers', async(req, res) => handleResults(res, await api.getAllCenters()));
 
 // Get center by id
-router.get('/centers/:id', async(req, res) => {
-	const data = await api.getCenter(req.params.id);
-	if (data) {
-		res.json(data);
-	} else {
-		res.status(404).send('Not found');
-	}
-});
+router.get('/centers/:id', async(req, res) => handleResults(res, await api.getCenter(req.params.id)));
 
 router.route('/appointments')
 	// Get all appointments
-	.get(async(req, res) => res.json(await api.getAllAppointments()))
+	.get(async(req, res) => handleResults(res, await api.getAllAppointments()))
 	// Add new appointment
-	.post(async(req, res) => {
-		const data = await api.insertAppointment(req.body);
-		if (data) {
-			res.status(201).json(data);
-		} else {
-			res.status(400).send('Request was badly formatted');
-		}
-	});
+	.post(async(req, res) => handleResults(res, await api.insertAppointment(req.body)));
 
 router.route('/appointments/:id')
 	// Get appointment by id
-	.get(async(req, res) => {
-		const data = await api.getAppointment(req.params.id);
-		if (data) {
-			res.json(data);
-		} else {
-			res.status(404).send('Not found');
-		}
-	})
+	.get(async(req, res) => handleResults(res, await api.getAppointment(req.params.id)))
 	// update appointment
-	.put(async(req, res) => {
-		const data = await api.updateAppointment(req.params.id, req.body);
-		if (data) {
-			res.status(204).send('Successful update');
-		} else {
-			res.status(400).send('Request was badly formatted');
-		}
-	})
+	.put(async(req, res) => handleResults(res, await api.updateAppointment(req.params.id, req.body)))
 	// delete appointment
-	.delete(async(req, res) => {
-		if ((await api.deleteAppointment(req.params.id)).n > 0) {
-			res.status(204).send('Successful delete');
-		} else {
-			res.status(404).send('Not found');
-		}
-	});
+	.delete(async(req, res) => handleResults(res, await api.deleteAppointment(req.params.id)));
 
 // Create Server
 const app = express();
