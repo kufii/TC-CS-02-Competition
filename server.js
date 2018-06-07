@@ -14,36 +14,37 @@ const router = express.Router();
 router.get('/centers', async(req, res) => res.json(await api.getAllCenters()));
 
 // Get center by id
-router.get('/centers/:id', (req, res) => {
-	api.getCenter(req.params.id).then(data => {
+router.get('/centers/:id', async(req, res) => {
+	const data = await api.getCenter(req.params.id);
+	if (data) {
+		res.json(data);
+	} else {
+		res.status(404).send('Not found');
+	}
+});
+
+router.route('/appointments')
+	// Get all appointments
+	.get(async(req, res) => res.json(await api.getAllAppointments()))
+	// Add new appointment
+	.post(async(req, res) => {
+		const data = await api.insertAppointment(req.body);
+		if (data) {
+			res.json(data);
+		} else {
+			res.status(400).send('Request was badly formatted');
+		}
+	});
+
+router.route('/appointments/:id')
+	// Get appointment by id
+	.get(async(req, res) => {
+		const data = await api.getAppointment(req.params.id);
 		if (data) {
 			res.json(data);
 		} else {
 			res.status(404).send('Not found');
 		}
-	});
-});
-
-router.route('/appointments')
-	// Get all appointments
-	.get((req, res) => {
-		api.getAllAppointments().then(data => res.json(data));
-	})
-	// Add new appointment
-	.post((req, res) => {
-		api.insertAppointment(req.body).then(data => res.json(data));
-	});
-
-router.route('/appointments/:id')
-	// Get appointment by id
-	.get((req, res) => {
-		api.getAppointment(req.params.id).then(data => {
-			if (data) {
-				res.json(data);
-			} else {
-				res.status(404).send('Not found');
-			}
-		});
 	})
 	// update appointment
 	.put((req, res) => {
