@@ -30,7 +30,7 @@ router.route('/appointments')
 	.post(async(req, res) => {
 		const data = await api.insertAppointment(req.body);
 		if (data) {
-			res.json(data);
+			res.status(201).json(data);
 		} else {
 			res.status(400).send('Request was badly formatted');
 		}
@@ -47,8 +47,17 @@ router.route('/appointments/:id')
 		}
 	})
 	// update appointment
-	.put((req, res) => {
-
+	.put(async(req, res) => {
+		const data = await api.updateAppointment(req.params.id, req.body);
+		if (data) {
+			if (data.n > 0) {
+				res.status(204).send('Successful update');
+			} else {
+				res.status(404).send('Not found');
+			}
+		} else {
+			res.status(400).send('Request was badly formatted');
+		}
 	})
 	// delete appointment
 	.delete((req, res) => {
