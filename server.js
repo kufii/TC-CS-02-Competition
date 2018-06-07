@@ -50,11 +50,7 @@ router.route('/appointments/:id')
 	.put(async(req, res) => {
 		const data = await api.updateAppointment(req.params.id, req.body);
 		if (data) {
-			if (data.n > 0) {
-				res.status(204).send('Successful update');
-			} else {
-				res.status(404).send('Not found');
-			}
+			res.status(204).send('Successful update');
 		} else {
 			res.status(400).send('Request was badly formatted');
 		}
