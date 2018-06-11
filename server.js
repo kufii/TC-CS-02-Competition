@@ -10,6 +10,7 @@ const router = express.Router();
 
 // Public Routes
 
+// Map API enum to HTTP status code, and add JSON to response
 const handleResults = function(res, data) {
 	res.status({
 		[api.Messages.SUCCESS]: 200,
