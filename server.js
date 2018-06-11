@@ -44,7 +44,7 @@ router.route('/appointments/:id')
 // Create Server
 const app = express();
 app.use(bodyParser.json());
-app.use('/api', router);
+app.use('/tcapi', router);
 
 // handle errors
 app.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
